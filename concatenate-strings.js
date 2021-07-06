@@ -7,4 +7,4 @@ const createConcat = () => {
     }
 }
 const concat = createConcat();
-а
+
