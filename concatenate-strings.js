@@ -7,8 +7,4 @@ const createConcat = () => {
     }
 }
 const concat = createConcat();
-
-concat('test string 1');
-concat('test2');
-concat('finish');
-console.log(concat());
+а
