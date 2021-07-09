@@ -6,7 +6,7 @@ const sarah = {
     }
 }
 
-function printJobName({name, job: {name: jobName, hiringDate: jobHiringDate}}) {
+function printJobName({job: {name}}) {
     console.log(name);
 }
 
