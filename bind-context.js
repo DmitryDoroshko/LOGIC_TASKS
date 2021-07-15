@@ -1,13 +1,11 @@
-function calc() {
-    return this.a + this.b;
-}
-
 const obj = {
     a: 4,
     b: 5,
 }
 
-const calculate = calc.bind(obj);
+const calc = () => {
+    return this.a + this.b;
+}
 
-console.log(calculate());
+console.log(calc.call(obj));
 

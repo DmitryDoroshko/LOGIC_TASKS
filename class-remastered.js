@@ -16,7 +16,8 @@ class Admin extends User {
     }
 
     print() {
-        console.log(`Name: ${this.firstName}; Last Name: ${this.lastName}; age: ${this.age}; role: ${this.role}`);
+        super.print();
+        console.log(`Role: ${this.role}`);
     }
 }
 
